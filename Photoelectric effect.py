@@ -1,5 +1,5 @@
 c=299
-cutoff_wavelength = int(input("Enter the wavelength(in nm):  "))
+cutoff_wavelength = int(input("Enter the threhold wavelength(in nm):  "))
 Vo = c/cutoff_wavelength
 print(f"CUTOFF FREQUENCY: {Vo} x 10^15 Hz")
 h = 6.62
